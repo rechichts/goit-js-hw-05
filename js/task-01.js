@@ -16,14 +16,3 @@ mango.getInfo(); // Login: Mangozedog, Email: mango@dog.woof
 
 const poly = new Account("Poly", "poly@mail.com");
 poly.getInfo(); // Login: Poly, Email: poly@mail.com
-
-
-
-
-
-
-
-
-
-
-
