@@ -2,17 +2,14 @@
 
 class Car {
   constructor({
-    maxSpeed = 200,
-    speed = 0,
-    isOn = false,
-    distance = 0,
+    maxSpeed,
     price,
   }) {
     this.maxSpeed = maxSpeed;
-    this.speed = speed;
-    this.isOn = isOn;
-    this.distance = distance;
-    this._price = price;
+    this.speed = 0;
+    this.isOn = false;
+    this.distance = 0;
+    this.price = price;
   }
 
   /*

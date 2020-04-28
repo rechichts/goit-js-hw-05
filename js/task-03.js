@@ -10,14 +10,14 @@ class Storage {
   }
 
   addItem(item) { // - получает новый товар и добавляет его к текущим
-    return (this.items).push(item);
+    this.items.push(item);
   }
 
   removeItem(item) { // - получет товар и, если он есть, удаляет его из текущих
-    const indexOfItem = (this.items).indexOf(item);
+    const indexOfItem = this.items.indexOf(item);
     if (indexOfItem > -1) {
-      (this.items).splice(indexOfItem, 1);
-      return this.items;
+      this.items.splice(indexOfItem, 1);
+      this.items;
     }
   }
 }
