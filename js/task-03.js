@@ -17,7 +17,6 @@ class Storage {
     const indexOfItem = this.items.indexOf(item);
     if (indexOfItem > -1) {
       this.items.splice(indexOfItem, 1);
-      this.items;
     }
   }
 }
